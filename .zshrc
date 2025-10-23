@@ -135,23 +135,5 @@ source /root/.oh-my-zsh/custom/plugins/zsh-z/zsh-z.plugin.zsh
 alias lst="ll -tr"
 alias microinfo=" glow /home/kripta/.config/micro/plug/MicroInfo.md -p"
 export ALPHAVANTAGE_API_KEY=WA6SQ0QWB22OKWY5
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/kripta/miniforge3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/kripta/miniforge3/etc/profile.d/conda.sh" ]; then
-        . "/home/kripta/miniforge3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/kripta/miniforge3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-
-if [ -f "/home/kripta/miniforge3/etc/profile.d/mamba.sh" ]; then
-    . "/home/kripta/miniforge3/etc/profile.d/mamba.sh"
-fi
-# <<< conda initialize <<<
 
 alias qimgv="/mnt/c/qimgv/qimgv.exe"
