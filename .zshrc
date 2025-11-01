@@ -132,7 +132,7 @@ unsetopt beep
 source /root/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /root/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /root/.oh-my-zsh/custom/plugins/zsh-z/zsh-z.plugin.zsh
-alias lst="ll -tr"
+alias lst="ll -tra"
 alias microinfo=" glow /home/kripta/.config/micro/plug/MicroInfo.md -p"
 export ALPHAVANTAGE_API_KEY=WA6SQ0QWB22OKWY5
 
