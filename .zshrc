@@ -137,3 +137,5 @@ setopt NO_CASE_GLOB
 setopt AUTO_MENU
 
 zstyle ':completion:*' matcher-list ''
+alias sqlite3="rlwrap -n sqlite3"
+alias grepi="grep -niRHI"
